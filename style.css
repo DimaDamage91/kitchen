@@ -45,7 +45,7 @@ header {
     flex-wrap: wrap;
     margin-top: 35px;
     justify-content: flex-start;
-    column-gap: 250px;
+    column-gap: 100px;
 }
 
 .sphoto {
