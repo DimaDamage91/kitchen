@@ -3,6 +3,9 @@
     padding: 0;
 }
 main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     background: rgba(249,28,0,0.1);
     
@@ -39,19 +42,21 @@ header {
     margin-right: 20px;
 }
 /*Section dishconteiner*/
-
+.dishconteiner {
+    max-width: 1600px;
+}
 .dish {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 35px;
-    justify-content: flex-start;
-    column-gap: 100px;
+    gap: 40px;
 }
 
 .sphoto {
     width: 100%;
-    max-width: 1000px;
     border-radius: 8px;
+    min-width: 320px;
 }
 
 .backimg {
@@ -71,14 +76,19 @@ header {
 }
 
 .h3r {
-    padding-top: 10px;
+    margin-top: 20px;
 }
 .ing {
     padding-left: 20px;
+    flex: 1;
+}
+.dishP {
+    flex:1;
 }
 h3, h2 {
     font-family: merriweather;
     color: #7A443D;
+    margin-bottom: 10px;
 }
 
 h2 {
