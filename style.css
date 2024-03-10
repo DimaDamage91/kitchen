@@ -7,7 +7,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    background: rgba(249,28,0,0.1);
+    background-color: rgba(249,28,0, 0.1);
     
     
 }
